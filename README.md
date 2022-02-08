@@ -1,11 +1,3 @@
-# Project 1 README
-## SUBMISSION BY:
-    + Cassie Peters ( 63685507 )
-    + Fareeha Hayat ( 20489167 )
-    + Amrita Sidhu ( 85822294 )
-
-
-
 ## OVERVIEW OF PROGRAM LOGIC:
 
 Parallel and Sequential runs of processes are handled nearly in the same way with one minor caveat; the waitpid() function.
