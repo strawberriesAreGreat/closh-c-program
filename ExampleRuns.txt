@@ -1,0 +1,78 @@
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ gcc closh.c
+    closh.c: In function ‘main’:
+    closh.c:164:21: warning: implicit declaration of function ‘waitpid’ [-Wimplicit-function-declaration]
+    164 |                     waitpid(pid);
+        |                     ^~~~~~~
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ file a.out
+    a.out: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=576941c8c05114e72ead8d478afd422fcc733653, for GNU/Linux 3.2.0, not stripped
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ ./a.out
+    closh> hostname
+    count> 7
+    [p]arallel or [s]equential> s
+    timeout> 0
+    Executing Process Id: 10359
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10360
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10361
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10362
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10363
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10364
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10365
+    DESKTOP-LDSJ89T
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ ./a.out
+    closh> hostname
+    count> 9
+    [p]arallel or [s]equential> s
+    timeout> 5
+    Executing Process Id: 10367
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10368
+    DESKTOP-LDSJ89T
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ ./a.out
+    closh> hostname
+    count> 6
+    [p]arallel or [s]equential> p
+    timeout> 0
+
+    Array Of Child Processes: [ 10377, 10378, 10379, 10380, 10381, 10382, 1, 1, 1,] ( a value of 1 means the array value is null) 
+    Executing Process Id: 10377
+    Executing Process Id: 10378
+    Executing Process Id: 10379
+    DESKTOP-LDSJ89T
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10380
+    Executing Process Id: 10381
+    DESKTOP-LDSJ89T
+    Executing Process Id: 10382
+    DESKTOP-LDSJ89T
+    DESKTOP-LDSJ89T
+    DESKTOP-LDSJ89T
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$ ./a.out
+    closh> hostname
+    count> 9
+    [p]arallel or [s]equential> p
+    timeout> 1
+
+    Array Of Child Processes: [ 10384, 10385, 10386, 10387, 10388, 10389, 10390, 10391, 10392,] ( a value of 1 means the array value is null) 
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+    Failed to execute in time specified
+cass@DESKTOP-LDSJ89T:/mnt/c/Users/Cassie/Documents/cosco315/closh-starter$
